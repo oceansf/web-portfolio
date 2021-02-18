@@ -116,9 +116,9 @@
 			<div class="section started" id="section-started">
 				
 				<!-- background -->
-				<div class="video-bg jarallax" style="background-image: url(images/bg.png);">
-					
-					<div id="started-video-bg" class="video-bg media-bg jarallax-video video-mobile-bg" data-jarallax-video="https://youtu.be/gKPLOhYDGjg" data-mobile-preview="images/started_image_p.jpg" data-volume="100"></div>
+				<div class="video-bg jarallax">
+					<!-- data-mobile-preview="images/started_image_p.jpg"-->
+					<div id="started-video-bg" class="video-bg media-bg jarallax-video video-mobile-bg" data-jarallax-video="https://youtu.be/gKPLOhYDGjg" data-volume="100"></div>
 							<div class="video-bg-mask"></div>
 							<div class="video-bg-texture" id="grained_container"></div>
 						</div>
@@ -246,7 +246,8 @@
 							</div>
 							<div id="popup-1" class="popup-box mfp-fade mfp-hide">
 								<div class="content">
-									<div class="image" style="background-image: url(images/pomodoro-cards.png);"></div>
+									<div class="image" style="background-image: url(images/pomodoro-cards-preview.gif);"></div>
+									
 									<div class="desc single-post-text">
 										<div class="category">Producivity</div>
 										<h4>Motivate your work/study habits with a visual time-tracker</h4>
@@ -292,7 +293,11 @@
 							</div>
 							<div id="popup-2" class="popup-box mfp-fade mfp-hide">
 								<div class="content">
-									<div class="image" style="background-image: url(images/stream-surfer.png);"></div>
+									<div class="image" style="background-image: url(images/stream-surfer-preview.gif);"></div>
+									<!-- <video class="video-preview" autoplay controls muted>
+										<source src="images/Untitled.mp4"
+										type="video/mp4">
+									</video> -->
 									<div class="desc single-post-text">
 										<div class="category">Entertainment</div>
 										<h4>Discover new Twitch streamers in a TikTok-like fashion</h4>
@@ -300,9 +305,9 @@
 											Stream Surfer introduces users to live-streamers on Twitch by letting them browse each stream one-by-one, similar to how TikTok displays short videos. The app is powered by the official <a href="https://dev.twitch.tv/docs/api/" target="_blank" rel="noopener noreferrer">Twitch API</a>.  
 										</p>
 										<ul>
-											<li>Utilizes features from the Twitch API</li>
-											<li>Features Twitch Authentication</li>
 											<li>Styled using Material-UI</li>
+											<li>Twitch Authentication</li>
+											<li>Live chat</li>
 										</ul>
 										<!-- <p>
 											Now there is more fashion. There is no so-called trends. Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style. Think about the content that you want to invest in a created object, and only then will form. The thing is your spirit. A spirit unlike forms hard copy.
@@ -337,17 +342,18 @@
 							</div>
 							<div id="popup-3" class="popup-box mfp-fade mfp-hide">
 								<div class="content">
-									<div class="image" style="background-image: url(images/cookbooks.png);"></div>
+									<div class="image" style="background-image: url(images/cookbooks-preview.gif);"></div>
 									<div class="desc single-post-text">
 										<div class="category">Social Network</div>
 										<h4>A social network for discovering new recipes</h4>
 										<p>
-											
+											Cookbooks comes with all the features of a modern web app such as user authentication, user-generated posts, the ability for users to comment and like posts, as well as the ability to follow other users. 
 										</p>
 										<ul>
 											<li>Styled with Styled-Components</li>
 											<li>Node & Express on the backend</li>
 											<li>MongoDB for the database</li>
+											<li>Authenticated with JWT</li>
 										</ul>
 										<p>
 											Github repo <a href="https://github.com/oceansf/cookbooks" target="_blank" rel="noopener noreferrer">here</a>.
